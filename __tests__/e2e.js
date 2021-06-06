@@ -6,7 +6,7 @@ jest.mock('process', () => {
 describe('test suite', () => {
     let state = {};
     let clint;
-    beforeAll(() => {
+    beforeEach(() => {
         clint = clintBuilder();
         state = {};
         clint.command('--path', '-p', 'path to the project folder')
