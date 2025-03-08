@@ -1,5 +1,6 @@
 {
   "name": "clint",
+  "type": "module",
   "description": "event driven options parser",
   "version": "1.0.0",
   "license": "MIT (http://mootools.net/license.txt)",
