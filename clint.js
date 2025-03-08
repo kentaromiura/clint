@@ -2,8 +2,8 @@
 // inspired by commander.js
 
 "use strict"
-const process = require('process');
-const EventEmitter = require('events');
+import process from "process"
+import EventEmitter from "events"
 
 class Clint extends EventEmitter {
 
